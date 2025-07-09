@@ -1,5 +1,5 @@
 body {
-    font-family: "Helvetica", Arial, sans-serif;
+    font-family: "New York", sans-serif;
     color: #ff1bd5;
     text-align: center;
     margin: 0;
@@ -67,7 +67,7 @@ button:hover {
     transform: translate(-50%, -50%);
     font-size: 3em;
     color: #ff0080;
-    font-family: "Helvetica" , Arial, sans-serif;
+    font-family: "New York", sans-serif;
     animation: pulse 1.5s infinite;
 
 }
