@@ -60,8 +60,8 @@ function createCenterLove() {
 }
 
 function createInitialFallingGrid() {
-    const columns = Math.max(5, Math.floor(window.innerWidth / 120));
-    const rows = Math.max(3, Math.floor(window.innerHeight / 80));
+    const columns = Math.max(5, Math.floor(window.innerWidth / 100));
+    const rows = Math.max(3, Math.floor(window.innerHeight / 60));
 
 
     const spacingX = window.innerWidth / columns;

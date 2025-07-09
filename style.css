@@ -1,5 +1,5 @@
 body {
-    font-family: "New York", sans-serif;
+    font-family: sans-serif;
     color: #ff1bd5;
     text-align: center;
     margin: 0;
@@ -23,6 +23,7 @@ body.love-phase {
 h1 {
     font-size: 2.5em;
     color: #C65669;
+    font-family: 'New York', sans-serif;
 }
 
 .buttons {
@@ -39,6 +40,7 @@ button {
     background-color: #C65669;
     color: #fff;
     transition: transform 0.2s;
+    font-family: 'New York', sans-serif;
 }
 
 button:hover {
@@ -67,7 +69,7 @@ button:hover {
     transform: translate(-50%, -50%);
     font-size: 3em;
     color: #ff0080;
-    font-family: "New York", sans-serif;
+    font-family: 'New York', sans-serif;
     animation: pulse 1.5s infinite;
 
 }
@@ -101,5 +103,14 @@ button:hover {
     50% {
         transform: translate(-50%, -50%) scale(1.2);
     }
+}
+
+@font-face {
+    font-family: 'New York';
+    src: url('NewYork-Regular.woff2') format('woff2'),
+        url('NewYork-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
 
