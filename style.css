@@ -1,0 +1,105 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    color: #ff1bd5;
+    text-align: center;
+    margin: 0;
+    overflow: hidden;
+}
+
+body.question-phase {
+    background-color: #E3D7C0; /* un tono hueso bonito */
+    color: #333;
+}
+
+body.love-phase {
+    background-color: #000; /* negro para los TE AMO */
+    color: #ff0080;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #C65669;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+button {
+    padding: 15px 40px;
+    font-size: 1.2em;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #C65669;
+    color: #fff;
+    transition: transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.1);
+}
+
+#loveContainer .fallingLove {
+    position: fixed;
+    top: -50px;
+    font-size: 1.2em;
+    color: #ff0080;
+    animation: fall 2s linear forwards;
+}
+
+#loveContainer .fallingGridLove {
+    position: fixed;
+    font-size: 1.2em;
+    color: #ff0080;
+    animation: fallGrid 2.5s linear forwards;
+}
+
+#loveContainer .centerLove {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    color: #ff0080;
+    font-family: Helvetica, Arial, sans-serif;
+    animation: pulse 1.5s infinite;
+
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+@keyframes fallGrid {
+    to {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
+}
+
+#loveContainer .burstLove {
+    position: fixed;
+    font-size: 1.2em;
+    color: #ff0080;
+    transition: transform 1s linear, opacity 1s linear;
+    pointer-events: none;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: translate(-50%, -50%) scale(1);
+    }
+    50% {
+        transform: translate(-50%, -50%) scale(1.2);
+    }
+}
+
