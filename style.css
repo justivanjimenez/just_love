@@ -107,8 +107,8 @@ button:hover {
 
 @font-face {
     font-family: 'New York';
-    src: url('NewYork-Regular.woff2') format('woff2'),
-        url('NewYork-Regular.woff') format('woff');
+    src: url('https://justivanjimenez.github.io/just_love/NewYork-Regular.woff2') format('woff2'),
+    url('https://justivanjimenez.github.io/just_love/NewYork-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
